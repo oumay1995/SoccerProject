@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "soccerProject"
+    }
+  },
+  "defaultProject": "soccerProject",
+  "cli": {
+    "analytics": "8d25b721-c8d1-42ab-a218-cf134bc0d208"
+  }
 }
