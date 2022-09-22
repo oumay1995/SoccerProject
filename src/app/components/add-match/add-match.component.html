@@ -1,0 +1,21 @@
+<div style="padding: 200px;"> 
+<form #addMatchForm="ngForm" (ngSubmit)="addMAtch()">
+    <div class="mb-3">
+      <label for="teamone" class="form-label">Team one</label>
+      <input type="text" class="form-control" id="teamOne" placeholder="team one *" [(ngModel)]="match.teamone" [ngModelOptions]="{standalone : true}">
+    </div>
+    <div class="mb-3">
+        <label for="teamtwo" class="form-label">Team two</label>
+        <input type="text" class="form-control" id="teamtwo" placeholder="team two *" [(ngModel)]="match.teamtwo" [ngModelOptions]="{standalone : true}">
+    </div>
+    <div class="mb-3">
+        <label for="teamtwo" class="form-label">Score one</label>
+        <input type="number" class="form-control" id="scoreone" placeholder="score one *" [(ngModel)]="match.scoreone" [ngModelOptions]="{standalone : true}">
+    </div>
+    <div class="mb-3">
+        <label for="teamtwo" class="form-label">Score two</label>
+        <input type="number" class="form-control" id="scoretwo" placeholder="score two *" [(ngModel)]="match.scoretwo" [ngModelOptions]="{standalone : true}">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+  </form>
+</div>
